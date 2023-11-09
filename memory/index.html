@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Travolgi">
+	<link rel="icon" href="https://travolgi.it/favicon.ico" />
+	<title>Memory Game - Arcade Games with Vanilla Javascript</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+	<link href="../assets/css/style.css" rel="stylesheet">
+	<link href="./css/memory-style.css" rel="stylesheet">
+</head>
+<body>
+
+	<main>
+      <div class="board">
+         <section class="game-data">
+            <h1>Memory Game</h1>
+            <p>Match all the same symbols and reveal all the cards</p>
+            <h3>Errors: <span id="error"></span></h3>
+            <a href="/vanillajs-arcade-games/" class="btn">Change game</a>
+         </section>
+
+         <section class="game-area">
+            <div id="grid">
+            </div>
+         </section>
+      </div>
+	</main>
+
+	<footer class="txt-center">Developed by <a href="https://travolgi.it" target="_blank">Travolgi</a> <span id="currentDate"></span></footer>
+		
+   <script src="../assets/js/utils.js" defer></script>
+   <script src="./js/script.js" defer></script>
+</body>
+</html>
